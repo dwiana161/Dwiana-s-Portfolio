@@ -45,7 +45,7 @@ export default function Home() {
         {/* Right Section (Image) */}
         <div className="mb-10 lg:mb-0 flex justify-center lg:justify-start lg:pl-50 w-full lg:w-1/2">
           <Image
-            src="/photo.png"
+            src="/foto2.png"
             alt="photo"
             height={300}
             width={300}
