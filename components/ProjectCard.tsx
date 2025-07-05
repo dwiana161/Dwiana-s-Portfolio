@@ -9,6 +9,7 @@ interface Props {
     image: string;
     title: string;
     text: string;
+    link: string;
     tech: string[];
 }
 
@@ -26,7 +27,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-const ProjectCard = ({ image, title, text, tech}: Props ) => {
+const ProjectCard = ({ image, title, text, link, tech}: Props ) => {
 
   return (
     <div className="flex flex-col p-4 sm:p-5 w-full sm:w-[500px] rounded-md border border-white cursor-pointer">
@@ -39,7 +40,7 @@ const ProjectCard = ({ image, title, text, tech}: Props ) => {
         transition={{ duration: 0.6 }}
       >
         <Link
-          href=""
+          href={link}
           aria-label={title}
           target="_blank"
           className="overflow-hidden rounded block"
