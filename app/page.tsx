@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="w-screen min-h-screen overflow-auto relative">
+    <main className="w-screen overflow-auto relative">
       <div
-        className="flex flex-col-reverse lg:flex-row items-center justify-between px-4 lg:px-16 py-10 lg:py-16 bg-cover bg-center"
+        className="min-h-screen w-screen flex flex-col-reverse lg:flex-row items-center justify-between px-4 lg:px-16 py-10 lg:py-16 bg-cover bg-center"
         style={{ backgroundImage: 'url(/main-bg4.jpg)' }}
       >
         {/* Left Section */}
@@ -21,7 +21,7 @@ export default function Home() {
           <p className="italic text-lg text-pink-400">– Anne Shirley</p>
 
           <p className="text-white text-justify text-sm sm:text-base leading-relaxed font-medium">
-            Hi! I'm Dwiana. Quality Assurance (QA) Engineer with 2+ years of experience in manual and automated testing.
+            A Quality Assurance (QA) Engineer with 2+ years of experience in manual and automated testing.
             Skilled in test planning, execution, bug reporting, and cross-functional collaboration to ensure seamless product releases.
             Experienced in front-end development using ReactJS, with a strong foundation in agile methodologies and QA automation tools.
             Detail-oriented, fast learner, and committed to software quality excellence.
@@ -37,7 +37,7 @@ export default function Home() {
             </Link>
             <Link href="/contact-me" className="relative group rounded-2xl border border-white px-5 py-3 text-lg text-white w-full sm:w-auto text-center">
               <div className="absolute rounded-2xl z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition" />
-              Contact Me
+              My Experiences
             </Link>
           </div>
         </div>

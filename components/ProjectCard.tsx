@@ -1,54 +1,76 @@
 "use client"
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
+import Link from 'next/link';
+import Image from 'next/image';
+import { Projects } from '@/constants';
 
 interface Props {
     image: string;
     title: string;
     text: string;
+    tech: string[];
 }
 
-const ProjectCard = ({ image, title, text}: Props ) => {
-    const [isFlipped, setIsFlipped] = useState(false)
-    const [isAnimating, setIsAnimating] = useState(false)
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.1 * index,
+    },
+  }),
+};
 
-    function handleFlip() {
-        if(!isAnimating) {
-            setIsFlipped(!isFlipped)
-            setIsAnimating(true)
-        }
-    }
+const ProjectCard = ({ image, title, text, tech}: Props ) => {
+
   return (
-    <div
-    onClick={handleFlip} 
-    className='w-[450px] h-[280px] rounded-md cursor-pointer'>
-        <motion.div
-        className='flip-card-inner w-full h-full'
-        initial={false}
-        animate={{rotateY: isFlipped ? 180 : 360}}
-        transition={{ duration: 0.6}}
-        onAnimationComplete={() => setIsAnimating(false)}
+    <div className="flex flex-col p-4 sm:p-5 w-full sm:w-[500px] rounded-md border border-white cursor-pointer">
+      <motion.div
+        className="flip-card-inner w-full"
+        variants={fadeInAnimationVariants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        <Link
+          href=""
+          aria-label={title}
+          target="_blank"
+          className="overflow-hidden rounded block"
         >
-            <div 
-            style={{backgroundImage: `url(${image})`}}
-            className='w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg p-4'>
-                <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-0 group-hover:opacity-40'/>
-                <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center'>
-                    Learn more &gt;
-                </div>
-            </div>
-            <div 
-            style={{backgroundImage: `url(${image})`}}
-            className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'>
-                <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]'/>
-                <div className='flex flex-col gap-20 py-3 z-[30]'>
-                    <h1 className='text-white text-2xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[20px]'>
-                        {text}
-                    </p>
-                </div>
-            </div>
-        </motion.div>
+          <Image
+            src={image}
+            alt={title}
+            width={600}
+            height={390}
+            className="rounded transition-transform hover:scale-105 w-full h-[200px] object-cover sm:h-[250px]"
+          />
+        </Link>
+
+        <h3 className="mt-3 text-lg sm:text-xl text-white font-extrabold">
+          {title}
+        </h3>
+        <p className="text-white text-sm sm:text-base mt-1 mb-2 text-justify">
+          {text}
+        </p>
+        <div className="flex flex-wrap gap-2">
+            {
+                tech.map((item, index) => (
+                    <span
+                    key={index}
+                     className="rounded-full border px-3 py-1 text-xs sm:text-sm text-white">
+                        {item}
+                    </span>
+                ))
+            }
+        </div>
+      </motion.div>
     </div>
   )
 }

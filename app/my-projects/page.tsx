@@ -6,15 +6,16 @@ const Page = () => {
   return (
     <div 
     style={{backgroundImage: "url(/bg-2.jpg)"}}
-    className='w-screen h-screen flex items-center justify-center bg-center bg-cover'
+    className='w-screen min-h-screen flex items-center justify-center bg-center bg-cover '
     >
-      <div className='grid grid-cols-2 gap-5 max-w-[90%] max-h-[90%] overflow-scroll'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-[90%] max-h-[90%] pt-20 mb-30'>
         {Projects.map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}
             text={project.text}
             image={project.src}
+            tech={project.tech}
           />
         ))}
       </div>
