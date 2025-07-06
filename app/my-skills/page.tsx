@@ -16,23 +16,23 @@ const Page = () => {
       <div className="flex flex-col gap-12 sm:gap-20 w-full max-w-6xl text-center items-center pt-20">
         <div className="flex flex-col items-center gap-6 sm:gap-4 w-full">
           <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{
-                  opacity: 1,
-                  y: 0,
-                }}
-                transition={{
-                  delay: 0.175,
-                }}
-                viewport={{
-                  once: true,
-                }}
-              >
-          <h1 className="font-semibold text-purple-300 text-3xl sm:text-5xl">
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            transition={{
+              delay: 0.175,
+            }}
+            viewport={{
+              once: true,
+            }}
+          >
+          <h1 className="font-extrabold text-purple-300 text-3xl sm:text-5xl mb-4">
             About Me
           </h1>
           <p className="text-white text-base sm:text-lg text-center sm:text-justify font-medium leading-relaxed">
-            Hi! I'm Dwiana. I'm a QA Engineer with a strong interest in automation and a background in front-end development.
+            Hi! I'm Dwiana Kamila A.S. I'm a QA Engineer with a strong interest in automation and a background in front-end development.
             While my core experience is in manual testing and semi-automate testing, I’m currently expanding my skills in test automation 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.
             My front-end background helps me better understand how users interact with the interface, allowing me to identify issues early and 

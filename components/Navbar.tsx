@@ -40,6 +40,7 @@ const Navbar = () => {
         </h1>
         </div>
         <div className='flex flex-row gap-5 mb-2'>
+          <h1 className='text-white border-1 rounded p-2 hidden md:block'>Get in touch &rarr;</h1>
             {Socials.map((social) => (
               <Link key={social.name} href={social.link} className='flex'>
                 <Image

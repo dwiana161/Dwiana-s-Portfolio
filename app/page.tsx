@@ -40,7 +40,7 @@ export default function Home() {
               full of opportunities.
             </span>
           </h1>
-          <p className="italic text-lg text-pink-400">– Anne Shirley</p>
+          <p className="italic text-lg text-pink-400 mb-2">– Anne Shirley</p>
 
           <p className="text-white text-justify text-sm sm:text-base leading-relaxed font-extralight rounded border-1 p-2 backdrop-blur-md">
             A Quality Assurance (QA) Engineer with 2+ years of experience in manual and automated testing.
@@ -91,7 +91,6 @@ export default function Home() {
           />
           </motion.div>
         </div>
-        {/* Stars Decoration */}
         <Image
           src="/stars.png"
           alt="stars"

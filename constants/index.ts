@@ -151,49 +151,49 @@ export const Projects = [
   },
   {
     title: "Testing web use Playwright",
-    text: "I performed UI testing on this website using Playwright to ensure that all user interface components function correctly.",
+    text: "I performed UI testing on this website using Playwright to ensure that all user interface components function correctly. Just click to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/test-automation-playwright',
     src: "/test-playwright.png",
     tech: ['TypeScript', 'Playwright']
   },
   {
     title: "Testing web use Cypress",
-    text: "To ensure the quality of the user interface, I implemented automated UI tests using Cypress. The tests included scenarios like navigating between pages, submitting forms, validating input fields. This helped detect issues early and improved the reliability of the user experience.",
+    text: "To ensure the quality of the user interface, I implemented automated UI tests using Cypress. The tests included scenarios like navigating between pages, submitting forms, validating input fields. This helped detect issues early and improved the reliability of the user experience. Just click to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/cypress-sauce-demo',
     src: "/test-cypress.png",
     tech: ['Cypress', 'TypeScript']
   },
   {
     title: "Testing use Katalon",
-    text: "I tried using Katalon Studio to perform test automation on a web application, focusing on its ability to generate test scripts, manage test data, and execute tests across different browsers.",
+    text: "I tried using Katalon Studio to perform test automation on a web application, focusing on its ability to generate test scripts, manage test data, and execute tests across different browsers. Just click to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/basic-katalon-automation',
     src: "/test-katalon.png",
     tech: ['Katalon', 'Groovy']
   },
   {
     title: "Testing use Cucumber",
-    text: "As part of a bootcamp project, I explored test automation using Cucumber, focusing on implementing BDD practices and writing test cases in Gherkin syntax to improve collaboration between QA and developers.",
+    text: "As part of a bootcamp project, I explored test automation using Cucumber, focusing on implementing BDD practices and writing test cases in Gherkin syntax to improve collaboration between QA and developers. Just click to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/cucumber-ui-automation',
     src: "/test-cucumber.png",
     tech: ['Cucumber', 'HTML', 'JavaScript', 'Gherkin']
   },
   {
     title: "Testing app treasury 2.0",
-    text: "Treasury is a digital platform that allows users to buy, sell, and store gold online easily and securely. Users can start investing with a small amount, monitor real-time gold prices, and withdraw their gold anytime. I was responsible for testing the migration API process from PHP to Golang and testing UI as well, ensuring that all features functioned correctly and consistently after the transition.",
+    text: "Treasury is a digital platform that allows users to buy, sell, and store gold online easily and securely. Users can start investing with a small amount, monitor real-time gold prices, and withdraw their gold anytime. I was responsible for testing the migration API process from PHP to Golang and testing UI as well, ensuring that all features functioned correctly and consistently after the transition. Click to see a sample test case.",
     link: 'https://docs.google.com/spreadsheets/d/1JhKipF4jOw1tJjukhnXY_FsDJ9c5FZoxrdb7D3wss28/edit?usp=sharing',
     src: "/treasury1.png",
     tech: ['Google Sheets', 'Http-Client', 'Python']
   },
   {
     title: "Testing app treasury 3.0",
-    text: "I conducted application testing, include API and UI testing for a product that is intended for international release, ensuring it meets global usability and functionality standards",
+    text: "I conducted application testing, include API and UI testing for a product that is intended for international release, ensuring it meets global usability and functionality standards. Click to see a sample test case.",
     link: 'https://docs.google.com/spreadsheets/d/1xpvbrlHi9Zw2XY-X8Epyv6AZ3OdZWxak_ZigJj_ewmo/edit?usp=sharing',
     src: "/treasury2.png",
     tech: ['Google Sheets', 'Http-Client', 'Python']
   },
   {
     title: "Web Dwiana's Portfolio",
-    text: "A portfolio website is a personal site used to showcase someone's work, skills, and achievements. It's commonly used by professionals to present their projects, experiences, and contact information in a visually appealing way.",
+    text: "A portfolio website is a personal site used to showcase someone's work, skills, and achievements. It's commonly used by professionals to present their projects, experiences, and contact information in a visually appealing way. Just click to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/Dwiana-s-Portfolio',
     src: "/portfolio.png",
     tech: ['Next.js', 'Tailwind CSS', 'Motion', 'TypeScript']
@@ -225,24 +225,38 @@ export const NavLinks = [
 
 export const Experiences = [
   {
-    title: "Linkedin",
-    description: "/linkedin.svg",
-    company: "https://www.linkedin.com/in/dwiana-kamila-a-s-b07566209/",
-    period: "",
-    tech: []
+    title: "Quality Assurance Engineer",
+    description: "Conducted thorough reviews and testing of the application, developed comprehensive test case documentation to enhance the quality assurance process for the Treasury digital gold application. ",
+    company: "Treasury (PT Indonesia Logam Pratama)",
+    period: "April 2023 - May 2025",
+    tech: ['Google Sheets', 'Http-Client', 'Python', 'VSCode', 'DBeaver', 'PostgreSQL']
   },
   {
-    title: "Github",
-    description: "/github3.svg",
-    company: "https://github.com/dwiana161",
-    period: "",
-    tech: []
+    title: "Front-End Developer",
+    description: "Enhanced user interface for both desktop and mobile versions of QuranBest, improving user experience. ",
+    company: "BMKA Salman ITB",
+    period: "Dec 2022 - April 2024",
+    tech: ['Next.js', 'Tailwind CSS', 'Context', 'TypeScript', 'AntDesign', 'Notion', 'VSCode']
   },
   {
-    title: "Instagram",
-    description: "/instagram.svg",
-    company: "https://www.instagram.com/",
-    period: "",
-    tech: []
+    title: "Front-End Developer & Quality Assurance",
+    description: "Enhanced user interface for both desktop and mobile versions of QuranBest, improving user experience. ",
+    company: "QuranBest Indonesia",
+    period: "Aug 2022 - Jun 2023",
+    tech: ['Angular.js', 'CSS', 'HTML', 'JavaScript', 'VSCode', 'Postman']
+  },
+  {
+    title: "Front-End Developer",
+    description: "Developed and maintained user interfaces using Next.js and TypeScript, enhancing user experience. Followed SEO best practices, contributing to increased website visibility and traffic.",
+    company: "Digital Waqf Ventura (WAVE) / ACT",
+    period: "March 2022 - July 2022",
+    tech: ['Next.js', 'TypeScript', 'Recoil', 'Styled-Component', 'Express.Js', 'Notion', 'Postman']
+  },
+  {
+    title: "Front-End Developer",
+    description: "Developed and maintained responsive websites using React Js, Redux, and Material UI. Collaborated with team members to implement user-friendly designs for desktop applications. ",
+    company: "Widya Matador",
+    period: "Nov 2021 - Feb 2022",
+    tech: ['React.js', 'Express.Js', 'Material-UI', 'Redux', 'JavaScript', 'Trello']
   },
 ];
