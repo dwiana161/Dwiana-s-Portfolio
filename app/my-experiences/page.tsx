@@ -8,8 +8,8 @@ import { Experiences } from '@/constants'
 const Page = () => {
   return (
     <div 
-    style={{backgroundImage: "url(/bg-3.jpg)"}}
-    className='w-screen min-h-screen bg-center flex items-center justify-center'>
+    // style={{backgroundImage: "url(/bg-3.jpg)"}}
+    className='w-screen min-h-screen bg-center flex items-center bg-black justify-center'>
     <div className="relative max-w-screen-md">
         {Experiences.map(
           ({ title, description, company, period, tech }) => (
@@ -32,7 +32,6 @@ const Page = () => {
                 viewport={{
                   once: true,
                 }}
-                className="space-y-3 opacity-0"
               >
                 <div className="flex items-center gap-3">
                   <div className="flex size-9 shrink-0 items-center justify-center rounded-full border">

@@ -5,17 +5,29 @@ import 'swiper/css'
 import { SkillData } from '@/constants'
 import Image from 'next/image'
 import {Autoplay} from 'swiper/modules'
+import { motion } from 'framer-motion'
 
 const Page = () => {
   return (
     <div 
-      style={{ backgroundImage: "url(/bg-3.jpg)" }}
-      className="min-h-screen w-screen flex items-center justify-center bg-center overflow-auto px-4"
+      // style={{ backgroundImage: "url(/bg-3.jpg)" }}
+      className="min-h-screen w-screen flex items-center justify-center bg-center bg-black overflow-auto px-4"
     >
       <div className="flex flex-col gap-12 sm:gap-20 w-full max-w-6xl text-center items-center pt-20">
-        
-        {/* About Me Section */}
         <div className="flex flex-col items-center gap-6 sm:gap-4 w-full">
+          <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  delay: 0.175,
+                }}
+                viewport={{
+                  once: true,
+                }}
+              >
           <h1 className="font-semibold text-purple-300 text-3xl sm:text-5xl">
             About Me
           </h1>
@@ -27,8 +39,8 @@ const Page = () => {
             design more targeted, meaningful test cases especially in UI/UX areas. I'm detail-oriented, curious, and always looking for ways to 
             improve both the product and the process behind it. Always learning, always improving.
           </p>
+              </motion.div>
         </div>
-
         {/* Swiper 1 */}
         <Swiper
           breakpoints={{

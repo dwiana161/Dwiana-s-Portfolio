@@ -1,6 +1,21 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
+import {motion} from 'framer-motion'
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.1 * index,
+    },
+  }),
+};
 
 export default function Home() {
   return (
@@ -9,8 +24,15 @@ export default function Home() {
         className="min-h-screen w-screen flex flex-col-reverse lg:flex-row items-center justify-between px-4 lg:px-16 py-10 lg:py-16 bg-cover bg-center"
         style={{ backgroundImage: 'url(/main-bg4.jpg)' }}
       >
-        {/* Left Section */}
         <div className="w-full lg:w-1/2 justify-center text-center lg:text-left max-w-2xl px-4 lg:pl-20 pt-10 pb-28 sm:pb-30 flex flex-col gap-5 z-10">
+           <motion.div
+            className="w-full"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-semibold leading-snug">
             I don't know what the future holds, but I do know that the world is
             <br />
@@ -25,7 +47,7 @@ export default function Home() {
             Skilled in test planning, execution, bug reporting, and cross-functional collaboration to ensure seamless product releases.
             Experienced in front-end development using ReactJS, with a strong foundation in agile methodologies and QA automation tools.
             Detail-oriented, fast learner, and committed to software quality excellence. <br/>
-            <span className="font-extrabold text-left">You can contact me at: dwianakas@gmail.com</span>
+            <span className="font-extrabold inline-block text-left">You can contact me at: dwianakas@gmail.com</span>
           </p>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -41,10 +63,24 @@ export default function Home() {
               My Experiences
             </Link>
           </div>
+          </motion.div>
         </div>
-
+       
         {/* Right Section (Image) */}
         <div className="mb-10 lg:mb-0 flex justify-center lg:justify-start lg:pl-50 w-full lg:w-1/2">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            transition={{
+              delay: 0.175,
+            }}
+            viewport={{
+              once: true,
+            }}
+          >
           <Image
             src="/foto2.png"
             alt="photo"
@@ -53,8 +89,8 @@ export default function Home() {
             className="
            translate-y-1/2 lg:translate-y-0 rounded-full object-cover border-4 border-white shadow-lg w-36 h-36 sm:w-48 sm:h-48 lg:w-72 lg:h-72"
           />
+          </motion.div>
         </div>
-
         {/* Stars Decoration */}
         <Image
           src="/stars.png"

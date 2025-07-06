@@ -1,9 +1,8 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import {motion} from 'framer-motion'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Projects } from '@/constants';
 
 interface Props {
     image: string;
@@ -32,7 +31,7 @@ const ProjectCard = ({ image, title, text, link, tech}: Props ) => {
   return (
     <div className="flex flex-col p-4 sm:p-5 w-full sm:w-[500px] rounded-md border border-white cursor-pointer">
       <motion.div
-        className="flip-card-inner w-full"
+        className="w-full"
         variants={fadeInAnimationVariants}
         initial="initial"
         whileInView="animate"
