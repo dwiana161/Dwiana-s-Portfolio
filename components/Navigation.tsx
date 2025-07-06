@@ -3,7 +3,6 @@ import { NavLinks } from '@/constants'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
-import Transition from './Transition'
 
 const Navigation = () => {
     const [isRouting, setisRouting] = useState(false)
