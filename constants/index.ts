@@ -96,7 +96,7 @@ export const Socials = [
   },
   {
     name: "Github",
-    src: "/github.svg",
+    src: "/github3.svg",
     link: "https://github.com/dwiana161"
   },
   {
@@ -105,6 +105,7 @@ export const Socials = [
     link: "https://www.instagram.com/"
   },
 ];
+
 export const Projects = [
   {
     title: "Matador Glass Web",
@@ -143,17 +144,17 @@ export const Projects = [
   },
   {
     title: "QuranBest Web",
-    text: "The QuranBest Web is an online platform designed to provide comprehensive access to the Holy Quran, including Arabic text, translations in multiple languages, tafsir, and audio recitations. It aims to support learning, reflection, and deeper understanding of the Quranic message.",
+    text: "The QuranBest Web is an online platform designed to provide comprehensive access to the Holy Quran, including Arabic text, translations in Indonesia languages, tafsir, and audio recitations. It aims to support learning, reflection, and deeper understanding of the Quranic message.",
     link: '#',
     src: "/quranbest1.png",
     tech: ['Angular.js', 'CSS', 'HTML', 'JavaScript']
   },
   {
-    title: "Testing web use PlayWright",
+    title: "Testing web use Playwright",
     text: "I performed UI testing on this website using Playwright to ensure that all user interface components function correctly.",
     link: 'https://github.com/dwiana161/test-automation-playwright',
     src: "/test-playwright.png",
-    tech: ['TypeScript', 'PlayWright']
+    tech: ['TypeScript', 'Playwright']
   },
   {
     title: "Testing web use Cypress",
@@ -178,14 +179,14 @@ export const Projects = [
   },
   {
     title: "Testing app treasury 2.0",
-    text: "A gold investment app is a digital platform that allows users to buy, sell, and store gold online easily and securely. Users can start investing with a small amount, monitor real-time gold prices, and withdraw their gold anytime. I was responsible for testing the migration process from PHP to Golang, ensuring that all features functioned correctly and consistently after the transition.",
+    text: "Treasury is a digital platform that allows users to buy, sell, and store gold online easily and securely. Users can start investing with a small amount, monitor real-time gold prices, and withdraw their gold anytime. I was responsible for testing the migration API process from PHP to Golang and testing UI as well, ensuring that all features functioned correctly and consistently after the transition.",
     link: 'https://docs.google.com/spreadsheets/d/1JhKipF4jOw1tJjukhnXY_FsDJ9c5FZoxrdb7D3wss28/edit?usp=sharing',
     src: "/treasury1.png",
     tech: ['Google Sheets', 'Http-Client', 'Python']
   },
   {
     title: "Testing app treasury 3.0",
-    text: "I conducted application testing for a product that is intended for international release, ensuring it meets global usability and functionality standards",
+    text: "I conducted application testing, include API and UI testing for a product that is intended for international release, ensuring it meets global usability and functionality standards",
     link: 'https://docs.google.com/spreadsheets/d/1xpvbrlHi9Zw2XY-X8Epyv6AZ3OdZWxak_ZigJj_ewmo/edit?usp=sharing',
     src: "/treasury2.png",
     tech: ['Google Sheets', 'Http-Client', 'Python']
@@ -216,8 +217,32 @@ export const NavLinks = [
     link: "/my-projects",
   },
   {
-    name: "/contact-me",
+    name: "/my-experiences",
     icon: RxClipboard,
-    link: "/contact-me",
+    link: "/my-experiences",
+  },
+];
+
+export const Experiences = [
+  {
+    title: "Linkedin",
+    description: "/linkedin.svg",
+    company: "https://www.linkedin.com/in/dwiana-kamila-a-s-b07566209/",
+    period: "",
+    tech: []
+  },
+  {
+    title: "Github",
+    description: "/github3.svg",
+    company: "https://github.com/dwiana161",
+    period: "",
+    tech: []
+  },
+  {
+    title: "Instagram",
+    description: "/instagram.svg",
+    company: "https://www.instagram.com/",
+    period: "",
+    tech: []
   },
 ];

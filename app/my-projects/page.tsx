@@ -5,8 +5,8 @@ import React from 'react'
 const Page = () => {
   return (
     <div 
-    style={{backgroundImage: "url(/bg-2.jpg)"}}
-    className='w-screen min-h-screen flex flex-col items-center justify-start bg-center bg-cover pt-20'
+    style={{backgroundImage: "url(/bg-3.jpg)"}}
+    className='w-screen min-h-screen flex flex-col items-center justify-start bg-center pt-20'
     >
       <h1 className="font-semibold text-purple-300 text-3xl sm:text-5xl text-center">
         My Projects

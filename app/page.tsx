@@ -20,11 +20,12 @@ export default function Home() {
           </h1>
           <p className="italic text-lg text-pink-400">– Anne Shirley</p>
 
-          <p className="text-white text-justify text-sm sm:text-base leading-relaxed font-medium">
+          <p className="text-white text-justify text-sm sm:text-base leading-relaxed font-extralight rounded border-1 p-2 backdrop-blur-md">
             A Quality Assurance (QA) Engineer with 2+ years of experience in manual and automated testing.
             Skilled in test planning, execution, bug reporting, and cross-functional collaboration to ensure seamless product releases.
             Experienced in front-end development using ReactJS, with a strong foundation in agile methodologies and QA automation tools.
-            Detail-oriented, fast learner, and committed to software quality excellence.
+            Detail-oriented, fast learner, and committed to software quality excellence. <br/>
+            <span className="font-extrabold text-left">You can contact me at: dwianakas@gmail.com</span>
           </p>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -35,7 +36,7 @@ export default function Home() {
               <div className="absolute rounded-2xl z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition" />
               My Projects
             </Link>
-            <Link href="/contact-me" className="relative group rounded-2xl border border-white px-5 py-3 text-lg text-white w-full sm:w-auto text-center">
+            <Link href="/my-experiences" className="relative group rounded-2xl border border-white px-5 py-3 text-lg text-white w-full sm:w-auto text-center">
               <div className="absolute rounded-2xl z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition" />
               My Experiences
             </Link>
