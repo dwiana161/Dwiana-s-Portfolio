@@ -1,6 +1,5 @@
 'use client'
 
-import ContactForm from '@/components/ContactForm'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Experiences } from '@/constants'
@@ -28,7 +27,7 @@ const Page = () => {
       My Experiences
     </h1>
   
-    <div className="absolute top-40 sm:top-43 left-0 w-[2px] h-[1670px] sm:h-[1060px] bg-white z-0"></div>
+    <div className="absolute top-40 sm:top-43 left-0 w-[2px] h-[92%] sm:h-[86%] bg-white z-0"></div>
 
     {Experiences.map(({ title, description, company, period, tech }, idx) => (
       <div

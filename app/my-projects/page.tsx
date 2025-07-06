@@ -11,7 +11,7 @@ const Page = () => {
       <h1 className="font-extrabold text-purple-300 text-3xl sm:text-5xl text-center">
         My Projects
       </h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[90%] max-h-[90%] pt-10 mb-30'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-[90%] max-h-[90%] pt-10 mb-30'>
         {Projects.map((project, index) => (
           <ProjectCard
             key={index}
