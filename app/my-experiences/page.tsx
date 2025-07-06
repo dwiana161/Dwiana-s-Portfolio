@@ -34,7 +34,7 @@ const Page = () => {
         key={company}
         className="relative pl-6 sm:pl-8 pb-10 text-white"
       >
-       <div className="border-primary bg-background absolute left-[-5px] md:left-[-5px] top-1 sm:top-0 size-3 rounded-full border-2 z-10" />
+       <div className="border-primary bg-white absolute left-[-5px] md:left-[-5px] top-1 sm:top-0 size-3 rounded-full border-2 z-10" />
         <motion.div
           variants={fadeInAnimationVariants}
           initial="initial"
