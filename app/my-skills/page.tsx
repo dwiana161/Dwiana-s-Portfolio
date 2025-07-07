@@ -36,7 +36,7 @@ const Page = () => {
             While my core experience is in manual testing and semi-automate testing, I&apos;m currently expanding my skills in test automation 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.
             My front-end background helps me better understand how users interact with the interface, allowing me to identify issues early and 
-            design more targeted, meaningful test cases especially in UI/UX areas. I'm detail-oriented, curious, and always looking for ways to 
+            design more targeted, meaningful test cases especially in UI/UX areas. I&apos;m detail-oriented, curious, and always looking for ways to 
             improve both the product and the process behind it. Always learning, always improving.
           </p>
               </motion.div>
