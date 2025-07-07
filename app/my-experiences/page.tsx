@@ -29,7 +29,7 @@ const Page = () => {
   
     <div className="absolute top-40 sm:top-43 left-0 w-[2px] h-[92%] sm:h-[86%] bg-white z-0"></div>
 
-    {Experiences.map(({ title, description, company, period, tech }, idx) => (
+    {Experiences.map(({ title, description, company, period, tech }) => (
       <div
         key={company}
         className="relative pl-6 sm:pl-8 pb-10 text-white"

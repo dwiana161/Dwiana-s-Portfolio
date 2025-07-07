@@ -34,7 +34,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
           >
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-semibold leading-snug">
-            I don't know what the future holds, but I do know that the world is
+            I don&apos;t know what the future holds, but I do know that the world is
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-pink-400">
               full of opportunities.

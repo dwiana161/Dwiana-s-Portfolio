@@ -32,8 +32,8 @@ const Page = () => {
             About Me
           </h1>
           <p className="text-white text-base sm:text-lg text-center sm:text-justify font-medium leading-relaxed">
-            Hi! I'm Dwiana Kamila A.S. I'm a QA Engineer with a strong interest in automation and a background in front-end development.
-            While my core experience is in manual testing and semi-automate testing, I’m currently expanding my skills in test automation 
+            Hi! I&apos;m Dwiana Kamila A.S. I&apos;m a QA Engineer with a strong interest in automation and a background in front-end development.
+            While my core experience is in manual testing and semi-automate testing, I&apos;m currently expanding my skills in test automation 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.
             My front-end background helps me better understand how users interact with the interface, allowing me to identify issues early and 
             design more targeted, meaningful test cases especially in UI/UX areas. I'm detail-oriented, curious, and always looking for ways to 
