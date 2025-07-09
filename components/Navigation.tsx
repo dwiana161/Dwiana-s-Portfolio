@@ -28,7 +28,7 @@ const Navigation = () => {
 
   return (
     <div 
-    className='fixed bottom-20 left-1/2 -translate-x-1/2 z-[50] w-[90%] sm:w-[70%] md:w-[40%] max-w-md rounded-full flex justify-between items-center border bg-black border-white px-4 py-5 backdrop-blur'
+    className='fixed bottom-20 left-1/2 -translate-x-1/2 z-[50] w-[90%] sm:w-[70%] md:w-[40%] max-w-md rounded-full flex justify-between items-center border-2 bg-black border-orange-200 px-4 py-5 backdrop-blur'
     >
         {isRouting}
         {NavLinks.map((nav) => (
@@ -38,7 +38,7 @@ const Navigation = () => {
             className='flex-1 text-center'
             >
                 <nav.icon className={`w-6 h-6 mx-auto ${
-                    path === nav.name ? "text-purple-800" : "text-white"
+                    path === nav.name ? "text-orange-200" : "text-white"
                     }`}
                 />
             </Link>

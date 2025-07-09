@@ -31,16 +31,16 @@ const Navbar = () => {
                     className='w-full h-full object-contain rounded-full'
                 /> */}
             </div>
-            <h1 className="text-white text-lg font-semibold">
+            <h1 className="text-orange-200 text-lg font-semibold font-serif">
           Dwiana&apos;s{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-200">
             {" "}
             Portfolio{" "}
           </span>
         </h1>
         </div>
         <div className='flex flex-row gap-5 mb-2'>
-          <h1 className='text-white border-1 rounded p-2 hidden md:block'>Get in touch &rarr;</h1>
+          <h1 className='text-orange-100 border-1 rounded p-2 hidden md:block font-medium font-serif'>Get in touch &rarr;</h1>
             {Socials.map((social) => (
               <Link key={social.name} href={social.link} className='flex'>
                 <Image

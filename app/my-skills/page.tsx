@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const Page = () => {
   return (
     <div 
-      // style={{ backgroundImage: "url(/bg-3.jpg)" }}
+      // style={{ backgroundImage: "url(/bg-5.jpg)" }}
       className="min-h-screen w-screen flex items-center justify-center bg-center bg-black overflow-auto px-4"
     >
       <div className="flex flex-col gap-12 sm:gap-20 w-full max-w-6xl text-center items-center pt-20">
@@ -28,10 +28,10 @@ const Page = () => {
               once: true,
             }}
           >
-          <h1 className="font-extrabold text-purple-300 text-3xl sm:text-5xl mb-4">
+          <h1 className="font-extrabold font-serif text-orange-200 text-3xl sm:text-5xl mb-4">
             About Me
           </h1>
-          <p className="text-white text-base sm:text-lg text-center sm:text-justify font-medium leading-relaxed">
+          <p className="text-orange-800 text-base sm:text-lg text-center sm:text-justify font-serif leading-relaxed border-2 p-4 rounded-b-4xl bg-orange-200">
             Hi! I&apos;m Dwiana Kamila A.S. I&apos;m a QA Engineer with a strong interest in automation and a background in front-end development.
             While my core experience is in manual testing and semi-automate testing, I&apos;m currently expanding my skills in test automation 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.
