@@ -62,7 +62,7 @@ const Page = () => {
                 alt={skill.name}
                 width={skill.width}
                 height={skill.height}
-                className='w-12 sm:w-16 md:w-20'
+                className='w-12 sm:w-16'
               />
             </SwiperSlide>
           ))}
@@ -89,7 +89,7 @@ const Page = () => {
                 alt={skill.name}
                 width={skill.width}
                 height={skill.height}
-                className='w-12 sm:w-16 md:w-20'
+                className='w-12 sm:w-16'
               />
             </SwiperSlide>
           ))}
