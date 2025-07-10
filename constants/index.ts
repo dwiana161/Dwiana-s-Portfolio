@@ -195,7 +195,7 @@ export const Projects = [
     title: "Dwiana's Portfolio Web",
     text: "This portfolio website is a personal site used to showcase work, skills, and achievements. It's commonly to present their projects, experiences, and contact information in a visually appealing way. Just click the image to take a look at it on GitHub!",
     link: 'https://github.com/dwiana161/Dwiana-s-Portfolio',
-    src: "/portfolio.png",
+    src: "/portfolio2.png",
     tech: ['Next.js', 'Tailwind CSS', 'Motion', 'TypeScript']
   },
 ];
