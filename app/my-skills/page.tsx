@@ -33,7 +33,7 @@ const Page = () => {
           </h1>
           <p className="text-yellow-800 text-base sm:text-lg text-center sm:text-justify font-serif leading-relaxed border-2 p-4 rounded-b-4xl bg-amber-50">
             Hi! I&apos;m Dwiana Kamila A.S. I&apos;m a QA Engineer with a strong interest in automation and a background in front-end development.
-            While my core experience is in manual testing and semi-automate testing, I like expanding my skills in test automation 
+            While my core experience is in manual testing and semi-automate testing, I like expanding my skills in test automation, by 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.
             My front-end background helps me better understand how users interact with the interface, allowing me to identify issues early and 
             design more targeted, meaningful test cases especially in UI/UX areas. I&apos;m detail-oriented, curious, and always looking for ways to 
