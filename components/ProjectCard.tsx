@@ -64,7 +64,7 @@ const ProjectCard = ({ image, title, text, link, tech}: Props ) => {
                 tech.map((item, index) => (
                     <span
                     key={index}
-                     className="rounded-full font-serif border-2 px-3 py-1 text-xs sm:text-sm text-white bg-orange-800 border-black">
+                     className="rounded-full font-serif border-2 px-3 py-1 text-xs sm:text-sm text-orange-800 border-orange-800">
                         {item}
                     </span>
                 ))

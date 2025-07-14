@@ -28,7 +28,7 @@ const Navigation = () => {
 
   return (
     <div 
-    className='fixed bottom-20 left-1/2 -translate-x-1/2 z-[50] w-[90%] sm:w-[70%] md:w-[40%] max-w-md rounded-full flex justify-between items-center border-2 border-yellow-800 px-4 py-5 backdrop-blur'
+    className='fixed bottom-20 left-1/2 -translate-x-1/2 z-[50] w-[90%] sm:w-[70%] md:w-[40%] max-w-md rounded-full flex justify-between items-center border-2 border-orange-800 px-4 py-5 backdrop-blur'
     >
         {isRouting}
         {NavLinks.map((nav) => (

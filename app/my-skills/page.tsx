@@ -31,7 +31,7 @@ const Page = () => {
           <h1 className="font-extrabold font-serif text-orange-800 text-3xl sm:text-5xl mb-4">
             About Me
           </h1>
-          <p className="text-yellow-800 text-base sm:text-lg text-center sm:text-justify font-serif leading-relaxed border-2 p-4 rounded-b-4xl bg-amber-50">
+          <p className="text-orange-800 text-base sm:text-lg text-center sm:text-justify font-serif leading-relaxed border-2 p-4 rounded-b-4xl bg-amber-50">
             Hi! I&apos;m Dwiana Kamila A.S. I&apos;m a QA Engineer with a strong interest in automation and a background in front-end development.
             While my core experience is in manual testing and semi-automate testing, I like expanding my skills in test automation, by 
             exploring tools like Mocha, Cypress, Katalon, Cucumber, Playwright, Appium and Selenium WebDriver to improve test efficiency and reliability.

@@ -33,7 +33,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl text-yellow-800 font-semibold leading-snug font-sans">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-orange-800 font-semibold leading-snug font-sans">
             I don&apos;t know what the future holds, but I do know that the world is
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-800 to-rose-300">
@@ -42,7 +42,7 @@ export default function Home() {
           </h1>
           <p className="italic text-lg text-amber-800 mb-2">– Anne Shirley</p>
 
-          <p className="text-yellow-800 text-justify text-sm sm:text-base leading-relaxed font-serif rounded border-1 p-2 backdrop-blur-md">
+          <p className="text-orange-800 text-justify text-sm sm:text-base leading-relaxed font-serif rounded border-1 p-2 backdrop-blur-md">
             A Quality Assurance (QA) Engineer with 2+ years of experience in manual and automated testing.
             Skilled in test planning, execution, bug reporting, and cross-functional collaboration to ensure seamless product releases.
             Experienced in front-end development using ReactJS & NextJS, with a strong foundation in agile methodologies and QA automation tools.
@@ -51,14 +51,14 @@ export default function Home() {
           </p>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-            <Link href="/my-skills" className="rounded-2xl bg-amber-800 shadow-xl/30 border-3 px-5 py-3 font-medium font-serif text-lg text-white w-full sm:w-auto text-center">
+            <Link href="/my-skills" className="rounded-2xl bg-orange-800 shadow-xl/30 border-3 px-5 py-3 font-medium font-serif text-lg text-white w-full sm:w-auto text-center">
               About Me
             </Link>
-            <Link href="/my-projects" className="relative group rounded-2xl border-2 px-5 py-3 text-lg font-medium text-yellow-800 w-full sm:w-auto text-center font-serif">
+            <Link href="/my-projects" className="relative group rounded-2xl border-2 px-5 py-3 text-lg font-medium text-orange-800 w-full sm:w-auto text-center font-serif">
               <div className="absolute rounded-2xl z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition" />
               My Projects
             </Link>
-            <Link href="/my-experiences" className="relative group rounded-2xl border-2 px-5 py-3 text-lg font-medium text-yellow-800 w-full sm:w-auto text-center font-serif">
+            <Link href="/my-experiences" className="relative group rounded-2xl border-2 px-5 py-3 text-lg font-medium text-orange-800 w-full sm:w-auto text-center font-serif">
               <div className="absolute rounded-2xl z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20 transition" />
               My Experiences
             </Link>
@@ -87,7 +87,7 @@ export default function Home() {
             height={300}
             width={300}
             className="
-           translate-y-1/2 lg:translate-y-0 rounded-full object-cover border-4 border-yellow-800 shadow-lg w-36 h-36 sm:w-48 sm:h-48 lg:w-72 lg:h-72"
+           translate-y-1/2 lg:translate-y-0 rounded-full object-cover border-4 border-orange-800 shadow-lg w-36 h-36 sm:w-48 sm:h-48 lg:w-72 lg:h-72"
           />
           </motion.div>
         </div>
