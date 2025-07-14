@@ -36,7 +36,7 @@ export default function Home() {
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-yellow-800 font-semibold leading-snug font-sans">
             I don&apos;t know what the future holds, but I do know that the world is
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-200">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-800 to-rose-300">
               full of opportunities.
             </span>
           </h1>

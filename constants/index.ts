@@ -52,7 +52,7 @@ export const SkillData = [
   },
   {
     name: "Next js",
-    Image: "/next-js.svg",
+    Image: "/Next.js.svg",
     width: 55,
     height: 55,
   },
@@ -96,7 +96,7 @@ export const Socials = [
   },
   {
     name: "Github",
-    src: "/github3.svg",
+    src: "/github.svg",
     link: "https://github.com/dwiana161"
   },
   {

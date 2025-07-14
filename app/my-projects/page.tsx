@@ -6,9 +6,9 @@ const Page = () => {
   return (
     <div 
     // style={{backgroundImage: "url(/bg-3.jpg)"}}
-    className='w-screen min-h-screen flex flex-col items-center justify-start bg-black bg-center pt-20'
+    className='w-screen min-h-screen flex flex-col items-center justify-start bg-amber-50 bg-center pt-20'
     >
-      <h1 className="font-extrabold font-serif text-orange-200 text-3xl sm:text-5xl text-center">
+      <h1 className="font-extrabold font-serif text-orange-800 text-3xl sm:text-5xl text-center">
         My Projects
       </h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-[90%] max-h-[90%] pt-10 mb-30'>
